@@ -12,7 +12,7 @@
 import { defineProps, withDefaults, computed, defineEmits } from 'vue'
 
 interface Props {
-  icon: string
+  icon: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {
