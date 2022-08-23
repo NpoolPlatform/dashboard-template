@@ -54,8 +54,8 @@ import { defineProps, toRef, computed } from 'vue'
 import { useRouter } from 'vue-router'
 
 interface Props {
-  menu: MenuItem;
-  mini: boolean;
+  menu: MenuItem
+  mini: boolean
 }
 const props = defineProps<Props>()
 const menu = toRef(props, 'menu')

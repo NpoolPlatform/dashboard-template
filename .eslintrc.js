@@ -122,13 +122,14 @@ module.exports = {
 
     '@typescript-eslint/member-delimiter-style': ['error', {
       multiline: {
-        delimiter: 'semi',
+        delimiter: 'none',
         requireLast: true
       },
-      singleline: {
-        delimiter: 'semi',
-        requireLast: false
-      },
+      // WARN: not allow
+      // singleline: {
+      //   delimiter: 'comma',
+      //   requireLast: true
+      // },
       multilineDetection: 'brackets'
     }],
 

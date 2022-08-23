@@ -20,7 +20,7 @@ import { MenuItem } from 'src/localstore'
 import { toRef, defineProps } from 'vue'
 
 interface Props {
-  breadcrumbs: Array<MenuItem>;
+  breadcrumbs: Array<MenuItem>
 }
 
 const props = defineProps<Props>()
