@@ -1,33 +1,18 @@
 <template>
   <div>
-    <q-input
-      v-model='account'
-      :label='$t("MSG_ACCOUNT")'
-    >
+    <q-input v-model='account' :label='$t("MSG_ACCOUNT")'>
       <template #prepend>
         <q-icon name='account_circle' />
       </template>
     </q-input>
-    <q-input
-      v-model='password'
-      :label='$t("MSG_PASSWORD")'
-    >
+    <q-input v-model='password' :label='$t("MSG_PASSWORD")'>
       <template #prepend>
         <q-icon name='lock' />
       </template>
     </q-input>
     <div class='row top'>
-      <q-btn
-        no-caps
-        :label='$t("MSG_SIGNIN")'
-        @click='onLoginClick'
-        class='btn start round'
-      />
-      <q-btn
-        no-caps
-        :label='$t("MSG_CONTACT_ADMIN")'
-        class='btn alt round'
-      />
+      <q-btn no-caps :label='$t("MSG_SIGNIN")' @click='onLoginClick' class='btn start round' />
+      <q-btn no-caps :label='$t("MSG_CONTACT_ADMIN")' class='btn alt round' />
     </div>
   </div>
 </template>

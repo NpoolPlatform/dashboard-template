@@ -5,7 +5,7 @@ import { createAPI } from 'npool-cli-v2/api'
 
 declare module '@vue/runtime-core' {
   interface ComponentCustomProperties {
-    $axios: AxiosInstance;
+    $axios: AxiosInstance
   }
 }
 
